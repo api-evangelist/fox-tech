@@ -1,7 +1,11 @@
 aid: fox-tech
 name: Fox-Tech
-description: Fox-Tech is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global
+  and SparkLabs Taipei) that digitally transforms farming, logistics, cold-chain, and manufacturing
+  operations. Its TempHawk platform pairs wireless temperature, humidity, CO2, light-intensity and
+  soil-EC sensors over Sigfox LPWAN with web and mobile apps and cloud data analytics, helping the
+  perishable-goods value chain monitor conditions, manage risk, and meet policy compliance. Recognized
+  on the Forward Fooding FoodTech 500. No public API, developer portal, or SDK is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/fox-tech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +13,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- IoT
+- Cold Chain
+- Food Tech
+- Supply Chain
+- Agriculture
+- Logistics
+- Sensors
+- Monitoring
+- Taiwan
+image: http://fox-tech.co/images/logo.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fox-tech-domain-security.yml
 - type: Website
-  url: https://fox-tech.co
+  url: http://www.fox-tech.co/
+- type: Blog
+  url: https://medium.com/fox-tech-in-the-food-value-chain
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
